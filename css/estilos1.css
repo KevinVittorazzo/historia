@@ -1,0 +1,195 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #402319;
+	font-size: 1em;
+	font-family: Bahnschrift, sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Georgia, serif;
+  text-decoration: underline;
+}
+img {
+ margin: 5px;
+ border-style: solid;
+ border-color: #bfbdb4;
+ max-width: 100%;
+}
+#cabecalho_div, #rodape_div {
+  background-color: #384759;
+  background-position: center;
+}
+#cabecalho_div {
+  font-size: 14px;
+  font-family: Georgia, serif;
+  height: 250px;
+  width: 98,5%;
+}
+#logo_div {
+  width: 100%;
+  height: 200px;
+  }
+#menu_div {
+  background-position: center;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  height: 20px;
+  margin: 5px 0px;
+}
+#cabecalho_div a:link, cabecalho_div a:visited{
+  color: #000;
+  padding: 5px 8px;
+}
+#cabecalho_div a:hover{
+  text-decoration: underline;
+  text-decoration-color: #402319;
+  padding: 5px;
+}
+#rodape_div {
+  clear: both;
+  margin-top: 10px;
+  padding: 10px;
+  height: 100px;
+  text-align: center;
+}
+#cabecalho_img {
+  max-height: 180px;
+  width: 99%;
+  background-attachment: fixed;
+  background-position: center;
+}
+#area_esquerda, #area_central, #area_direita, #direita_div, #esquerda_div, #lista_direita, imagens_lista, #postagem, #cabecalho_div {
+  margin: 5px 5px;
+  padding: 5px;
+}
+#clear {
+  clear: both;
+}
+/*index.html*/
+#principal_div{
+  height: 600px;
+}
+#area_esquerda{
+  width: 23.7%;
+  height: 1250px;
+  float: left;
+}
+#area_central {
+  width: 48%;
+  height: 1250px;
+  float: left;
+}
+#area_direita {
+  width: 23.7%;
+  height: 1250px;
+  float: right;
+} 
+/*saude.html*/
+#esquerda_div {
+  width: 48%;
+  height: 865px;
+  float: left;
+}
+#direita_div {
+  width: 49%;
+  height: 865px;
+  float: right;
+}
+#lista_direita {
+  float: left;
+  width: 48%;
+}
+#imagem_maior_div {
+  clear: both;
+  width: 98%;
+}
+#imagem_maior {
+  border-style: solid;
+  border-color: #384759;
+  max-height: 240px;
+  max-width: 100%;
+  margin: 5px 5px;
+}
+/*lista que fica do lado esquerdo*/
+#lista_grande {
+  float: right;
+  width: 50%;
+}
+.imagens_lista {
+  margin: 5px;
+  padding: 5px;
+  width: 45%;
+  background-position: center;
+}
+.float_esquerda {
+  float: left;
+}
+.float_direita {
+  float: right;
+}
+/*cor de fundo de textos*/
+.branco {
+  background-color: #bfbdb4;
+}
+/*cor de fundo das postagens*/
+.azul {
+  background-color: #647f96;
+  border-style: solid;
+  border-color: #384759;
+}
+.titulos {
+  text-align: center;
+}
+.titulos_div {
+  margin: 5px;
+  text-align: center;
+  border-style: solid;
+  border-color: #384759;
+}
+.margem_conteudo {
+  margin: 5px 0px;
+}
+.margem_listas {
+  margin: 10px;
+}
+.padding_conteudo {
+  padding: 0px 5px;
+}
+.lista_div {
+  width: 99%;
+  height: 595px;
+}
+.imagens_medias {
+  border-style: solid;
+  border-color: #384759; 
+  max-height: 150px;
+  max-width: 100%;
+}
+.margem_imagens {
+  margin-top: 50px;
+}
+.postagem_direita {
+  padding: 5px;
+  width: 47%;
+  float: right;
+}
+.postagem_esquerda {
+  padding: 5px;
+  width: 47%;
+  float: left;
+}
+.imagem_longa {
+  max-width: 100%;
+  max-height: 100px;
+  border-style: solid;
+  border-color: #384759;
+  padding: 0px;
+}
