@@ -22,6 +22,9 @@ img {
  border-color: #bfbdb4;
  max-width: 100%;
 }
+p {
+ text-align: justify;
+}
 #cabecalho_div, #rodape_div {
   background-color: #384759;
   background-position: center;
